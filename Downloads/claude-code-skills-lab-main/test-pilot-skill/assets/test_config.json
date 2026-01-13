@@ -1,0 +1,29 @@
+{
+  "test_generation": {
+    "include_edge_cases": true,
+    "include_mock_objects": true,
+    "include_performance_tests": false,
+    "include_integration_tests": false
+  },
+  "coverage_threshold": {
+    "minimum_percentage": 80,
+    "fail_on_low_coverage": false
+  },
+  "test_frameworks": {
+    "python": "unittest",
+    "javascript": "jest",
+    "typescript": "jest"
+  },
+  "naming_conventions": {
+    "python": "test_{filename}.py",
+    "javascript": "{filename}.test.js",
+    "typescript": "{filename}.test.ts"
+  },
+  "mock_data_templates": {
+    "string": "'sample_string'",
+    "number": "42",
+    "boolean": "true",
+    "array": "[1, 2, 3]",
+    "object": "{}"
+  }
+}
